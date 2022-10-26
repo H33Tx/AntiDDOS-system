@@ -30,7 +30,7 @@
 		<h3>AntiDDOS System activated.</h3>
 		<form method="post" name="<?= $nom_form; ?>">
 			<input type="hidden" name="<?= $_SESSION['variable_du_form']; ?>" value="JnYHSNp">
-			<img height="130" width="400" src="anti_ddos/securitecode.php"><br>
+			<img height="130" width="400" src="anti_ddos/securitecode.php" alt="Captcha"><br>
 			<input type="text" name="valCAPTCHA" class="code" placeholder="Entrez le code ici.">
 			<input type="button" class="clickmoi" onclick="go()" value="Me verifier">
 		</form>
